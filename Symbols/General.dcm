@@ -1,0 +1,134 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N3819
+D Transistor N-JFET
+K njfet n-jfet transistor
+$ENDCMP
+#
+$CMP 74AHC1G14
+D Single Schmidt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmidt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G14
+D Single Schmidt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmidt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G14
+D Single Schmidt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmidt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G14
+D Single Schmidt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmidt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G14
+D Single Schmidt NOT Gate, Low-Voltage CMOS with power pins visible
+K Single Gate NOT Schmidt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP B3760
+D B3760 SAW filter 315MHz 433MHz 869MHz
+$ENDCMP
+#
+$CMP CMX60D20
+D Crydom Solid State Relay
+F https://docs-emea.rs-online.com/webdocs/0fc2/0900766b80fc2059.pdf
+$ENDCMP
+#
+$CMP Coax
+D Coaxial cable e.g. RG-58, RG-217, RG-59 etc.
+$ENDCMP
+#
+$CMP Coax_Loop
+D Coaxial cable e.g. RG-58, RG-217, RG-59 etc.
+$ENDCMP
+#
+$CMP DC_DC_Dual
+D Generic DC DC Dual Output
+$ENDCMP
+#
+$CMP DC_DC_Single
+D Generic DC DC Converter Single Output
+$ENDCMP
+#
+$CMP Hardware_Item
+D General purpose hardware item, e.g. screw, light pipe etc.
+$ENDCMP
+#
+$CMP LED_Dual_ACAC_ALT
+D LED dual, 4-pin alternative pin numbering
+K led diode bicolor dual
+F ~
+$ENDCMP
+#
+$CMP Lemo2_Pair
+D 2-pin LEMO connector pair
+K LEMO connector pair
+$ENDCMP
+#
+$CMP Lemo3_Pair
+D 3-pin LEMO connector pair
+K LEMO connector pair
+$ENDCMP
+#
+$CMP Lemo4_Pair
+D 4-pin LEMO connector pair
+K LEMO connector pair
+$ENDCMP
+#
+$CMP Lemo5_Pair
+D 5-pin LEMO connector pair
+K LEMO connector pair
+$ENDCMP
+#
+$CMP MMBTA92
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP Pancon_Pair10
+D Pancon 10 way connector pair
+$ENDCMP
+#
+$CMP Pancon_Pair2
+D Pancon 2 way connector pair
+$ENDCMP
+#
+$CMP Pancon_Pair3
+D Pancon 3 way connector pair
+$ENDCMP
+#
+$CMP Pancon_Pair4
+D Pancon 4 way connector pair
+$ENDCMP
+#
+$CMP Pancon_Pair5
+D Pancon 5 way connector pair
+$ENDCMP
+#
+$CMP Pancon_Pair6
+D Pancon 6 way connector pair
+$ENDCMP
+#
+$CMP RG-xx
+D Coaxial cable e.g. RG-58, RG-217, RG-59 etc.
+$ENDCMP
+#
+$CMP RJ45_Conn
+D RJ45 Ethernet cable plug
+$ENDCMP
+#
+$CMP TMR_2-4823WI
+D 2W wide input, +/-15V fixed Output Voltage
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADAM-6015
+D ADAM 6015 7 Channel RTD Inputs
+$ENDCMP
+#
+$CMP ADAM-6024
+D ADAM 6024 6 Analogue Inputs, 2 Analogue Outputs, 2 Digital Inputs, 2 Digital Outputs
+$ENDCMP
+#
+$CMP ADAM-6060
+D ADAM 6060 6 Digital Inputs, 6 Relay Outputs
+$ENDCMP
+#
+$CMP ADAM-6520
+D ADAM 6520 Unmanaged 5 port network switch
+$ENDCMP
+#
+#End Doc Library

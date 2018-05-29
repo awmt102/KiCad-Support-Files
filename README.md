@@ -1,1 +1,1 @@
-KiCad Support Files
+Various custom KiCad support files.
