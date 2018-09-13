@@ -35,8 +35,23 @@ K Single Gate NOT Schmidt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP APM-VOLT-ANN
+D Configurable voltmeter
+K indicator
+$ENDCMP
+#
 $CMP B3760
 D B3760 SAW filter 315MHz 433MHz 869MHz
+$ENDCMP
+#
+$CMP BNC(F)
+D BNC Conncetor Female
+$ENDCMP
+#
+$CMP Beacon-Sounder
+D AUDIO PIEZO TRANSDUCER 30V TH
+K 445-2525-1-ND PS
+F https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf
 $ENDCMP
 #
 $CMP CMX60D20
@@ -52,6 +67,12 @@ $CMP Coax_Loop
 D Coaxial cable e.g. RG-58, RG-217, RG-59 etc.
 $ENDCMP
 #
+$CMP Commoning_Block
+D Commoning terminal block
+K screw terminal earth earthing
+F ~
+$ENDCMP
+#
 $CMP DC_DC_Dual
 D Generic DC DC Dual Output
 $ENDCMP
@@ -60,8 +81,68 @@ $CMP DC_DC_Single
 D Generic DC DC Converter Single Output
 $ENDCMP
 #
+$CMP DIN-2-ALT
+D 2-pin DIN connector
+K circular DIN connector
+$ENDCMP
+#
+$CMP DIN-3-ALT
+D 3-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN-4-ALT
+D 4-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DMN2004K
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+F ~
+$ENDCMP
+#
+$CMP DMP2004K
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP E-Stop
+D Emergency Stop Push Button
+K switch normally-open pushbutton push-button normally-closed no nc
+$ENDCMP
+#
+$CMP FCAPC_Coupler
+D FC/APC Coupler
+$ENDCMP
+#
+$CMP HFBR-14xx
+D Fibre optic transmitter
+$ENDCMP
+#
+$CMP HFBR-24x2
+D Fibre optic receiver
+$ENDCMP
+#
+$CMP HFBR-24x6
+D Analogue fibre optic receiver
+$ENDCMP
+#
+$CMP HX_xx-P
+D Current transducer, PCB mount
+K HX 15-P
+$ENDCMP
+#
 $CMP Hardware_Item
 D General purpose hardware item, e.g. screw, light pipe etc.
+$ENDCMP
+#
+$CMP Illuminated_Switch
+D Single Pole Single Throw (SPST) switch with signal lamp, generic
+K switch SPST LED OFF-ON lamp
 $ENDCMP
 #
 $CMP LED_Dual_ACAC_ALT
@@ -90,9 +171,25 @@ D 5-pin LEMO connector pair
 K LEMO connector pair
 $ENDCMP
 #
+$CMP MMBTA42
+D Transistor NPN (general)
+$ENDCMP
+#
 $CMP MMBTA92
 D Transistor PNP (general)
 K pnp transistor
+$ENDCMP
+#
+$CMP MSR126
+D MSR126 Safety Relay
+$ENDCMP
+#
+$CMP PTP
+D Point to Point
+$ENDCMP
+#
+$CMP Pancon2
+D Pancon 2 way connector pair
 $ENDCMP
 #
 $CMP Pancon_Pair10
@@ -119,6 +216,16 @@ $CMP Pancon_Pair6
 D Pancon 6 way connector pair
 $ENDCMP
 #
+$CMP Panel_Potentiometer
+D Panel mount potentiometer
+$ENDCMP
+#
+$CMP Q_NJFET_DGS
+D Transistor N-JFET (general)
+K njfet n-jfet transistor
+F ~
+$ENDCMP
+#
 $CMP RG-xx
 D Coaxial cable e.g. RG-58, RG-217, RG-59 etc.
 $ENDCMP
@@ -127,8 +234,49 @@ $CMP RJ45_Conn
 D RJ45 Ethernet cable plug
 $ENDCMP
 #
+$CMP Ring_Term
+D Ring terminal/ring crimp
+$ENDCMP
+#
+$CMP SW_Pneumatic
+D Pneumatic Switch
+K pressure crouzet
+$ENDCMP
+#
 $CMP TMR_2-4823WI
 D 2W wide input, +/-15V fixed Output Voltage
+$ENDCMP
+#
+$CMP USB_A(F)
+D RJ45 Ethernet cable plug
+$ENDCMP
+#
+$CMP USB_A(M)
+D RJ45 Ethernet cable plug
+$ENDCMP
+#
+$CMP USB_B_Micro_Pwr
+D USB Micro Type B connector for power (pins 1 and 5 only)
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+$CMP ZVN4424A
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS n-mos n-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP ZVP4424A
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+F ~
 $ENDCMP
 #
 #End Doc Library
