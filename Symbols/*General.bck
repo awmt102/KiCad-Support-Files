@@ -59,6 +59,10 @@ D Crydom Solid State Relay
 F https://docs-emea.rs-online.com/webdocs/0fc2/0900766b80fc2059.pdf
 $ENDCMP
 #
+$CMP Cable_Ferrite
+D Ferrite bead for feeding over cable.
+$ENDCMP
+#
 $CMP Coax
 D Coaxial cable e.g. RG-58, RG-217, RG-59 etc.
 $ENDCMP
@@ -110,6 +114,16 @@ K pmos p-mos p-mosfet transistor
 F ~
 $ENDCMP
 #
+$CMP DS711
+D NiMH Charger. Detects primary cells.
+$ENDCMP
+#
+$CMP DUAL_USB_A
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
 $CMP E-Stop
 D Emergency Stop Push Button
 K switch normally-open pushbutton push-button normally-closed no nc
@@ -140,12 +154,22 @@ $CMP Hardware_Item
 D General purpose hardware item, e.g. screw, light pipe etc.
 $ENDCMP
 #
+$CMP ICSP
+D In Circuit Serial Programmer port
+$ENDCMP
+#
 $CMP Illuminated_Switch
 D Single Pole Single Throw (SPST) switch with signal lamp, generic
 K switch SPST LED OFF-ON lamp
 $ENDCMP
 #
 $CMP LED_Dual_ACAC_ALT
+D LED dual, 4-pin alternative pin numbering
+K led diode bicolor dual
+F ~
+$ENDCMP
+#
+$CMP LED_Dual_ACAC_ALT_2
 D LED dual, 4-pin alternative pin numbering
 K led diode bicolor dual
 F ~
@@ -171,6 +195,12 @@ D 5-pin LEMO connector pair
 K LEMO connector pair
 $ENDCMP
 #
+$CMP MCP1642D-ADJ
+D Synchronous Boost Regulator, Adjustable Output 2.0V-5.5V, PWM/PFM True Disconnect, SOT-23
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
+$ENDCMP
+#
 $CMP MMBTA42
 D Transistor NPN (general)
 $ENDCMP
@@ -190,6 +220,14 @@ $ENDCMP
 #
 $CMP Pancon2
 D Pancon 2 way connector pair
+$ENDCMP
+#
+$CMP Pancon4
+D Pancon 4 way connector
+$ENDCMP
+#
+$CMP Pancon5
+D Pancon 5 way connector
 $ENDCMP
 #
 $CMP Pancon_Pair10
@@ -226,6 +264,16 @@ K njfet n-jfet transistor
 F ~
 $ENDCMP
 #
+$CMP RFM119W
+D RFM119W RF Module
+K OOK RF 433MHz 868MHz
+$ENDCMP
+#
+$CMP RF_Module_Rx
+D Generic RF Receiver Module
+K 433 315 868 ISM
+$ENDCMP
+#
 $CMP RG-xx
 D Coaxial cable e.g. RG-58, RG-217, RG-59 etc.
 $ENDCMP
@@ -234,8 +282,18 @@ $CMP RJ45_Conn
 D RJ45 Ethernet cable plug
 $ENDCMP
 #
+$CMP Remote_Control
+D Remote Control
+K 433 315 868 ISM
+$ENDCMP
+#
 $CMP Ring_Term
 D Ring terminal/ring crimp
+$ENDCMP
+#
+$CMP SCRTM4RA
+D M4 Antenna Connector
+K SCRTM4RA 433MHz 315MHz
 $ENDCMP
 #
 $CMP SW_Pneumatic
@@ -243,8 +301,18 @@ D Pneumatic Switch
 K pressure crouzet
 $ENDCMP
 #
+$CMP TES1Series
+D DC DC Converter Single Output 1W
+$ENDCMP
+#
 $CMP TMR_2-4823WI
 D 2W wide input, +/-15V fixed Output Voltage
+$ENDCMP
+#
+$CMP TPS61220
+D Synchronous Boost Regulator, Adjustable Output 2.0V-5.5V, PWM/PFM True Disconnect, SOT-23
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
 $ENDCMP
 #
 $CMP USB_A(F)
